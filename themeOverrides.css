@@ -1,0 +1,104 @@
+/*
+
+Zen and Tea 
+#10222B - blue 
+rgba(71,119,37,1) - forest green 
+#95AB63 - mint
+#BDD684 - leaf green
+#E2F0D6 - light green 
+#F6FFE0 - light gray
+
+https://kuler.adobe.com/zen-and-tea-color-theme-337112/
+
+*/
+
+
+body#bd {
+	color: #666;
+	background: url('http://file.brandonmcpeak.com/bg/6.jpg') no-repeat center center fixed;
+}
+
+.main { background: rgba(16, 32, 41, 0.75); }
+
+h1#logo a { background: 
+    url('http://file.brandonmcpeak.com/logo/6.png')!important;
+} 
+
+#ja-header .main {
+    border-top-color: #95AB63;
+}
+
+#ja-footer .main {
+    background: transparent;
+    border-bottom-color: transparent;
+}
+
+#ja-footer .main:before {
+    content: url("http://olioj.com/bg/dog_fence_md.png");
+    left: 828px;
+    position: absolute;
+    top: -82px;
+float:left;
+}
+
+#ja-footer:before {
+    content: url("http://olioj.com/bg/dog_peak_exsm.png");
+ position: absolute;
+float:left;
+left:50px
+}
+
+#ja-footer .privacy:before {
+   content: url("http://olioj.com/bg/dog_jump_sm.png");
+ position: absolute;
+float:left;
+left:900px;
+top:-102px;
+}
+
+    
+
+
+
+#ja-footer {
+    background: url("http://file.brandonmcpeak.com/patterns/fence.jpg") repeat scroll 0 -36px rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+#ja-header .main {
+    border-top-color: rgb(71, 117, 38);
+}
+
+/* My cart */
+#ja-mainnav .block-cart .block-title {
+    background-color: rgb(224, 73, 5);
+}
+
+
+
+.jm-mask-desc a.readon {
+    background: none repeat scroll 0% 0% rgb(224, 73, 5);
+}
+
+h3 {
+    color: rgb(246, 255, 224);:
+}
+
+.nameAndSlogan > h2 {
+    color: #ccc;
+}
+
+button.button:hover, button.button:focus, button:hover, button:focus {
+    background: none repeat scroll 0% 0% rgb(224, 73, 5);
+    border: 1px solid rgb(224, 73, 5);
+}
+
+#ja-footer .main .inner {
+   color: rgb(226, 240, 214);
+    text-align: right;
+}
+
+#ja-footer a {
+    color: rgb(246, 255, 224);
+    text-decoration: none;
+}
