@@ -1,8 +1,11 @@
 /*
 
+rgb(117, 161, 33) - Theme base green 
+rgba(71,119,37,1) - forest green 
+#75A121 - accent orange
+
 Zen and Tea 
 #10222B - blue 
-rgba(71,119,37,1) - forest green 
 #95AB63 - mint
 #BDD684 - leaf green
 #E2F0D6 - light green 
@@ -10,8 +13,31 @@ rgba(71,119,37,1) - forest green
 
 https://kuler.adobe.com/zen-and-tea-color-theme-337112/
 
+To Do----
+- If you feel like it, might go ahead and change these to RGBa, but not important
+- change colors on images containing accent color, such as next/previous buttons in home brand/supplier slider
+- Fix grass to remove white glow if possible, and make darker
+- If you still feel like it, feel free to make some shading/color variants for the fence
+
 */
 
+a { 
+    color: #C44E18;
+}
+
+a:hover, a:active, a:focus {
+    color: #75A121;
+}
+
+#ja-header .main .inner { /* theme.css:139 */
+    padding: 20px 0 10px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .head, .page-title { /* theme.css:74 */
+    color: #fff;
+}
 
 body#bd {
 	color: #666;
@@ -24,6 +50,23 @@ h1#logo a { background:
     url('http://file.brandonmcpeak.com/logo/6.png')!important;
 } 
 
+/* mega menu */
+.jm-megamenu ul.level0 li.mega a.mega:hover, .jm-megamenu ul.level0 li.mega:hover > a.mega { /* jmmegamenu.css line 34 */
+    background: #C44E18;
+}
+.jm-megamenu .childcontent-inner {  /* jmmegamenu.css line 166 */
+    background: #C44E18;
+}
+.jm-megamenu .level2 li a.mega span { /* jmmegamenu.css line 195 */
+    background: #C44E18;
+}
+/* end mega menu styles */
+
+/* accent color */
+#ja-botsl .content-inner { /* theme.css line 490 */
+    color: #C44E18;
+}
+
 #ja-header .main {
     border-top-color: #95AB63;
 }
@@ -32,6 +75,16 @@ h1#logo a { background:
     background: transparent;
     border-bottom-color: transparent;
 }
+#ja-footer .main .inner {
+    border-top: transparent;
+}
+
+button.btn-cart {
+    background-color: #C44E18;
+    border-color: #C44E18;
+}
+
+/*
 
 #ja-footer .main:before {
     content: url("http://olioj.com/bg/dog_fence_md.png");
@@ -49,15 +102,14 @@ left:50px
 }
 
 #ja-footer .privacy:before {
-   content: url("http://olioj.com/bg/dog_jump_sm.png");
- position: absolute;
-float:left;
-left:900px;
-top:-102px;
+    content: url("http://olioj.com/bg/dog_jump_sm.png");
+    position: absolute;
+    float:left;
+    left:900px;
+    top:-102px;
 }
 
-    
-
+*/
 
 
 #ja-footer {
@@ -68,12 +120,6 @@ top:-102px;
 #ja-header .main {
     border-top-color: rgb(71, 117, 38);
 }
-
-/* My cart */
-#ja-mainnav .block-cart .block-title {
-    background-color: rgb(224, 73, 5);
-}
-
 
 
 .jm-mask-desc a.readon {
@@ -101,4 +147,8 @@ button.button:hover, button.button:focus, button:hover, button:focus {
 #ja-footer a {
     color: rgb(246, 255, 224);
     text-decoration: none;
+}
+
+#ja-footer .jm-footer-logo a { /* theme.css:644 */
+    background: url('http://file.brandonmcpeak.com/logo/6.png')!important;
 }
