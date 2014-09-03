@@ -152,3 +152,158 @@ button.button:hover, button.button:focus, button:hover, button:focus {
 #ja-footer .jm-footer-logo a { /* theme.css:644 */
     background: url('http://file.brandonmcpeak.com/logo/6.png')!important;
 }
+
+
+/* themes.css line 147 */
+#ja-footer li a {
+    color: #c44e18;
+}
+
+/* line  592 */
+#ja-footer .main .inner {
+    color: #444;
+    text-align: right;
+}
+
+/* line  115 */
+#ja-footer a {
+    color: #444;
+    text-decoration: none;
+}
+
+/* line606 */
+#ja-footer a:hover, #ja-footer a:active, #ja-footer a:focus {
+    color: #60940D;
+}
+
+/* line 629*/
+#ja-footer li a:hover, #ja-footer li a:focus, #ja-footer li a:active {
+    color: #60940D;
+    text-decoration: none;
+}
+
+
+/* theme.css line 214*/
+.quick-access p {
+    font-size: 12px;
+    color:#c44e18;
+}
+
+/* theme.css line */
+.catalog-category-view #ja-container .main {
+/*    background: url("../images/media/category_default_view.jpg") no-repeat scroll center top rgba(16, 32, 41, 0.75);*/
+/*    background: none repeat scroll 0 0 rgba(16, 32, 41, 0.75);*/
+    background: url("http://www.olioj.com/bg/category_default_view_alpha_15.png") no-repeat scroll center top rgba(16, 32, 41, 0.75);
+}
+
+/* cat.html line 200*/
+.jm-megamenu .level2 li a.mega span {
+    background: none repeat scroll 0 0 #C44E18 !important;
+}
+
+/* theme.css line 892*/
+p.required {
+    color: #c44e18;
+}
+
+/* theme.css line 887 */
+label.required em {
+    color: #c44e18;
+    margin-right: 3px;
+}
+
+/* theme.css line 364*/
+#ja-mainnav .block-cart:hover .block-title, #ja-mainnav .block-cart .block-title.active {
+    background: none repeat scroll 0 0 #c44e18;
+}
+
+/* theme.css line 240*/
+.shop-access a {
+    color: #777;
+}
+
+/* theme.css new call */
+.box-collateral.box-description > h2 {
+    color: #333;
+}
+
+
+/* theme.css line 232*/
+ul.ja-tab-navigator li.active a {
+    color: #C44E18 !important;
+}
+
+
+/* addons.css line */
+.success-msg {
+    color: #666;
+}
+
+/* theme.css line 777*/
+button.btn-continue, button.btn-update, button.btn-empty, button.btn-add, button.btn-share {
+    color: #C44E18;
+}
+
+/* theme.css line 787*/
+button.btn-proceed-checkout {
+    background-color: #c44e18;
+    border-color: #c44e18;
+}
+
+/* theme.css line 887*/
+label.required em {
+    color: #c44e18;
+    margin-right: 3px;
+}
+
+/* theme.css line 870*/
+.validation-failed {
+    background: none repeat scroll 0 0 #F4DDD2 !important;
+    border: 1px dashed #c44e18 !important;
+}
+
+/* theme.css line 266*/
+.block-account li.current {
+    color: #c44e18;
+    font-weight: bold;
+}
+
+/* theme.css line 4376*/
+.block-account li a:hover, .block-account li a:active, .block-account li a:focus {
+    color: #c44e18;
+}
+
+
+/* theme.css line 4345*/
+.block-account .block-title strong {
+    color: #c44e18;
+}
+
+#my-orders-table a.link-reorder{
+    color: #c44e18;
+}
+
+/* theme.css line 283*/
+#my-orders-table a:hover, #my-orders-table a:focus {
+    color: #75a121;
+}
+
+/* theme.css line 4439*/
+.box-account .box .box-content a.button {
+    background: none repeat scroll 0 0 #c44e18; 
+    border: 1px solid #c44e18;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: NovecentowideNormalRegular,sans-serif;
+    font-weight: normal;
+    margin: 10px 0;
+    overflow: visible;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/* theme.css line 74 (new call though) */
+#jm-error .page-head-alt h3 {
+    color: #60940D;
+}
